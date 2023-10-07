@@ -1,0 +1,73 @@
+/* body {
+  background: #171717;
+}
+
+p {
+  background: url("https://images.unsplash.com/photo-1554727242-741c14fa561c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80");
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 100%;
+  -webkit-text-fill-color: transparent;
+  font-family: fantasy;
+  font-size: smaller;
+  background-attachment: fixed;
+  line-height: 10px;
+  font-weight: bolder;
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  text-align: center;
+} */
+
+body {
+  background: #171717;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.text-container {
+  background: url("");
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 80%;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input[type="text"],
+select {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
