@@ -1,22 +1,4 @@
-/* body {
-  background: #171717;
-}
 
-p {
-  background: url("https://images.unsplash.com/photo-1554727242-741c14fa561c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80");
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-size: 100%;
-  -webkit-text-fill-color: transparent;
-  font-family: fantasy;
-  font-size: smaller;
-  background-attachment: fixed;
-  line-height: 10px;
-  font-weight: bolder;
-  background-repeat: no-repeat;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
-  text-align: center;
-} */
 
 body {
   background: #171717;

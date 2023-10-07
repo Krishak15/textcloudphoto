@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Background Text</title>
     <link rel="stylesheet" href="style.css" /> -->
-    <!-- Corrected the CSS file name -->
-  <!-- </head>
+<!-- Corrected the CSS file name -->
+<!-- </head>
   <body>
     <p>
       non. Nunc mattis enim ut tellus
@@ -19,37 +19,44 @@
 </html> -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Customizable Text</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="text-container">
-            <p id="custom-text">Your Custom Text Here</p>
-        </div>
-        <div class="controls">
-            <input type="text" id="customInput" placeholder="Enter Text">
-            <button onclick="updateText()">Update Text</button>
-            <input type="file" id="imageInput">
-            <button onclick="changeBackground()">Change Background</button>
-            <label for="fontSize">Font Size:</label>
-            <input type="range" id="fontSize" min="10" max="100" value="30">
-            <label for="fontWeight">Font Weight:</label>
-            <input type="range" id="fontWeight" min="100" max="900" step="100" value="400">
-            <label for="containerSize">Container Size:</label>
-            <select id="containerSize">
-                <option value="1080x1350">4:5 (1080x1350)</option>
-                <option value="1080x1080">1:1 (1080x1080)</option>
-                <option value="1080x1920">9:16 (1080x1920)</option>
-            </select>
-            <button onclick="adjustContainerSize()">Apply Size</button>
-            <a id="downloadLink" download="custom_text.png">Download</a>
-        </div>
+      <div class="text-container">
+        <p id="custom-text">Your Custom Text Here</p>
+      </div>
+      <div class="controls">
+        <input type="text" id="customInput" placeholder="Enter Text" />
+        <button onclick="updateText()">Update Text</button>
+        <input type="file" id="imageInput" />
+        <button onclick="changeBackground()">Change Background</button>
+        <label for="fontSize">Font Size:</label>
+        <input type="range" id="fontSize" min="10" max="100" value="30" />
+        <label for="fontWeight">Font Weight:</label>
+        <input
+          type="range"
+          id="fontWeight"
+          min="100"
+          max="900"
+          step="100"
+          value="400"
+        />
+        <label for="containerSize">Container Size:</label>
+        <select id="containerSize">
+          <option value="1080x1350">4:5 (1080x1350)</option>
+          <option value="1080x1080">1:1 (1080x1080)</option>
+          <option value="1080x1920">9:16 (1080x1920)</option>
+        </select>
+        <button onclick="adjustContainerSize()">Apply Size</button>
+        <a id="downloadLink" download="custom_text.png">Download</a>
+      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
-    <script src="script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
